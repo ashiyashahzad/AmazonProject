@@ -1,0 +1,13 @@
+<suite name="Amazon" paralle="tests">
+	<test name="TestNg" allow-return-values="true">
+		<classes>
+				<class name="testLayer.GuestAccountTest" /> 
+ 			<class name="testLayer.SigninTest" /> 
+			<class name="testLayer.YourAddressTest" /> 
+			<class name="testLayer.LoginSecTest" />
+			<class name="testLayer.ShoppingCartTest" />
+			<class name="testLayer.SearchTest" />
+<!--			<class name="testLayer.YourPaymentsTest" />-->
+		</classes>
+	</test>
+</suite>

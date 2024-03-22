@@ -1,0 +1,364 @@
+<html>
+<head>
+<title>TestNG:  TestNg</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNg</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 22 00:04:04 EDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>212 seconds (212063 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testLayer.YourAddressTest.addInvalidAddress()'><b>addInvalidAddress</b><br>Test class: testLayer.YourAddressTest<br>Parameters: Alex, 111.0, 3 west fort, milton, Ontario, L6B 5N4, n, </td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at testLayer.YourAddressTest.addInvalidAddress(YourAddressTest.java:127)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace5338884", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace5338884'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1086)
+	at testLayer.YourAddressTest.addInvalidAddress(YourAddressTest.java:127)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.SearchTest.sortingLowToHigh()'><b>sortingLowToHigh</b><br>Test class: testLayer.SearchTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testLayer.SearchTest.sortingLowToHigh(SearchTest.java:117)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace235334787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace235334787'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at testLayer.SearchTest.sortingLowToHigh(SearchTest.java:117)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>testLayer.SearchTest@7e3181aa</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.addInvalidAddress()'><b>addInvalidAddress</b><br>Test class: testLayer.YourAddressTest<br>Parameters: Alex, 1.23456789E9, 3 west fort, milton, Ontario, 4503L, n, </td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at testLayer.YourAddressTest.addInvalidAddress(YourAddressTest.java:127)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace937936076", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace937936076'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1086)
+	at testLayer.YourAddressTest.addInvalidAddress(YourAddressTest.java:127)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testLayer.ShoppingCartTest.addItemVerify()'><b>addItemVerify</b><br>Test class: testLayer.ShoppingCartTest</td>
+<td></td>
+<td>23</td>
+<td>testLayer.ShoppingCartTest@2250b9f2</td></tr>
+<tr>
+<td title='testLayer.SearchTest.verifyProductPageTitle()'><b>verifyProductPageTitle</b><br>Test class: testLayer.SearchTest</td>
+<td></td>
+<td>13</td>
+<td>testLayer.SearchTest@7e3181aa</td></tr>
+<tr>
+<td title='testLayer.GuestAccountTest.guestSearchAndBuy()'><b>guestSearchAndBuy</b><br>Test class: testLayer.GuestAccountTest</td>
+<td></td>
+<td>11</td>
+<td>testLayer.GuestAccountTest@691939c9</td></tr>
+<tr>
+<td title='testLayer.ShoppingCartTest.addSameItem()'><b>addSameItem</b><br>Test class: testLayer.ShoppingCartTest</td>
+<td></td>
+<td>19</td>
+<td>testLayer.ShoppingCartTest@2250b9f2</td></tr>
+<tr>
+<td title='testLayer.SigninTest.youraccount()'><b>youraccount</b><br>Test class: testLayer.SigninTest</td>
+<td></td>
+<td>1</td>
+<td>testLayer.SigninTest@70f59913</td></tr>
+<tr>
+<td title='testLayer.SigninTest.yourorders()'><b>yourorders</b><br>Test class: testLayer.SigninTest</td>
+<td></td>
+<td>1</td>
+<td>testLayer.SigninTest@70f59913</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.verifyCountryValue()'><b>verifyCountryValue</b><br>Test class: testLayer.YourAddressTest</td>
+<td></td>
+<td>0</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.addInvalidAddress()'><b>addInvalidAddress</b><br>Test class: testLayer.YourAddressTest<br>Parameters: Alex, 1.23456789E9, 3 west fort, , Ontario, L6B 5N4, n, 111.0</td>
+<td></td>
+<td>5</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.addInvalidAddress()'><b>addInvalidAddress</b><br>Test class: testLayer.YourAddressTest<br>Parameters: Tom, 9.87654321E9, , hamilton, Ontario, L6B 1N3, n, 123.0</td>
+<td></td>
+<td>8</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.addAddress()'><b>addAddress</b><br>Test class: testLayer.YourAddressTest<br>Parameters: Tom, 9.87654321E9, 2 new street, hamilton, Ontario, L6B 1N3, y, 123.0</td>
+<td></td>
+<td>11</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.addInvalidAddress()'><b>addInvalidAddress</b><br>Test class: testLayer.YourAddressTest<br>Parameters: Alex, 1.23456789E9, 3 west fort, milton, Ontario, , n, </td>
+<td></td>
+<td>7</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.ShoppingCartTest.quantityRemoveAll()'><b>quantityRemoveAll</b><br>Test class: testLayer.ShoppingCartTest</td>
+<td></td>
+<td>2</td>
+<td>testLayer.ShoppingCartTest@2250b9f2</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.verifyAddAddressTitle()'><b>verifyAddAddressTitle</b><br>Test class: testLayer.YourAddressTest</td>
+<td></td>
+<td>1</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.ShoppingCartTest.quantityRemove()'><b>quantityRemove</b><br>Test class: testLayer.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testLayer.ShoppingCartTest@2250b9f2</td></tr>
+<tr>
+<td title='testLayer.ShoppingCartTest.addMultipleItem()'><b>addMultipleItem</b><br>Test class: testLayer.ShoppingCartTest</td>
+<td></td>
+<td>20</td>
+<td>testLayer.ShoppingCartTest@2250b9f2</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.addInvalidAddress()'><b>addInvalidAddress</b><br>Test class: testLayer.YourAddressTest<br>Parameters: Alex, , 3 west fort, milton, Ontario, L6B 5N4, n, </td>
+<td></td>
+<td>6</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.ShoppingCartTest.quantityDecrease()'><b>quantityDecrease</b><br>Test class: testLayer.ShoppingCartTest</td>
+<td></td>
+<td>6</td>
+<td>testLayer.ShoppingCartTest@2250b9f2</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.addAddress()'><b>addAddress</b><br>Test class: testLayer.YourAddressTest<br>Parameters: Alex, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, y, 111.0</td>
+<td></td>
+<td>11</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.verifyYourAddressTitle()'><b>verifyYourAddressTitle</b><br>Test class: testLayer.YourAddressTest</td>
+<td></td>
+<td>0</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.SearchTest.verifyProductName()'><b>verifyProductName</b><br>Test class: testLayer.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>testLayer.SearchTest@7e3181aa</td></tr>
+<tr>
+<td title='testLayer.SearchTest.verifyProductRating()'><b>verifyProductRating</b><br>Test class: testLayer.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>testLayer.SearchTest@7e3181aa</td></tr>
+<tr>
+<td title='testLayer.YourAddressTest.addInvalidAddress()'><b>addInvalidAddress</b><br>Test class: testLayer.YourAddressTest<br>Parameters: , 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, n, </td>
+<td></td>
+<td>6</td>
+<td>testLayer.YourAddressTest@77258e59</td></tr>
+<tr>
+<td title='testLayer.LoginSecTest.editName()'><b>editName</b><br>Test class: testLayer.LoginSecTest</td>
+<td></td>
+<td>6</td>
+<td>testLayer.LoginSecTest@5dcd8c7a</td></tr>
+<tr>
+<td title='testLayer.SearchTest.numberOfProductsPerPage()'><b>numberOfProductsPerPage</b><br>Test class: testLayer.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>testLayer.SearchTest@7e3181aa</td></tr>
+<tr>
+<td title='testLayer.SearchTest.verifyProductPrice()'><b>verifyProductPrice</b><br>Test class: testLayer.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>testLayer.SearchTest@7e3181aa</td></tr>
+<tr>
+<td title='testLayer.SearchTest.navigationToNextPage()'><b>navigationToNextPage</b><br>Test class: testLayer.SearchTest</td>
+<td></td>
+<td>4</td>
+<td>testLayer.SearchTest@7e3181aa</td></tr>
+<tr>
+<td title='testLayer.SearchTest.verifyProductImage()'><b>verifyProductImage</b><br>Test class: testLayer.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>testLayer.SearchTest@7e3181aa</td></tr>
+<tr>
+<td title='testLayer.SigninTest.signinValidEmailPassword()'><b>signinValidEmailPassword</b><br>Test class: testLayer.SigninTest</td>
+<td></td>
+<td>6</td>
+<td>testLayer.SigninTest@70f59913</td></tr>
+<tr>
+<td title='testLayer.ShoppingCartTest.quantityIncrease()'><b>quantityIncrease</b><br>Test class: testLayer.ShoppingCartTest</td>
+<td></td>
+<td>7</td>
+<td>testLayer.ShoppingCartTest@2250b9f2</td></tr>
+</table><p>
+</body>
+</html>

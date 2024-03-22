@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Amazon" class="navigator-link">
+              <span class="suite-name border-failed">Amazon</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Amazon" class="navigator-link ">
+                    <span>C:\Users\shahz\eclipse-workspace\Amazon\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Amazon" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Amazon" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Amazon" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Amazon" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Amazon" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Amazon" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 3 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Amazon" class="hide-methods failed suite-Amazon"> (hide)</a> <!-- hide-methods failed suite-Amazon -->
+                      <a href="#" panel-name="suite-Amazon" class="show-methods failed suite-Amazon"> (show)</a> <!-- show-methods failed suite-Amazon -->
+                    </span>
+                    <div class="method-list-content failed suite-Amazon">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="addInvalidAddress(Alex, 111.0, 3 west fort, milton, Ontario, L6B 5N4, n, )">addInvalidAddress(Alex, 111.0, 3 west fort, milton, Ontario, L6B 5N4, n, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, 4503L, n, )">addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, 4503L, n, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SearchTest" class="method navigator-link" hash-for-method="sortingLowToHigh">sortingLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Amazon -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Amazon" class="hide-methods passed suite-Amazon"> (hide)</a> <!-- hide-methods passed suite-Amazon -->
+                      <a href="#" panel-name="suite-Amazon" class="show-methods passed suite-Amazon"> (show)</a> <!-- show-methods passed suite-Amazon -->
+                    </span>
+                    <div class="method-list-content passed suite-Amazon">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="addAddress(Tom, 9.87654321E9, 2 new street, hamilton, Ontario, L6B 1N3, y, 123.0)">addAddress(Tom, 9.87654321E9, 2 new street, hamilton, Ontario, L6B 1N3, y, 123.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="addAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, y, 111.0)">addAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, y, 111.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="addInvalidAddress(Alex, 1.23456789E9, 3 west fort, , Ontario, L6B 5N4, n, 111.0)">addInvalidAddress(Alex, 1.23456789E9, 3 west fort, , Ontario, L6B 5N4, n, 111.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="addInvalidAddress(Tom, 9.87654321E9, , hamilton, Ontario, L6B 1N3, n, 123.0)">addInvalidAddress(Tom, 9.87654321E9, , hamilton, Ontario, L6B 1N3, n, 123.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, , n, )">addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, , n, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="addInvalidAddress(Alex, , 3 west fort, milton, Ontario, L6B 5N4, n, )">addInvalidAddress(Alex, , 3 west fort, milton, Ontario, L6B 5N4, n, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="addInvalidAddress(, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, n, )">addInvalidAddress(, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, n, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.ShoppingCartTest" class="method navigator-link" hash-for-method="addItemVerify">addItemVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.ShoppingCartTest" class="method navigator-link" hash-for-method="addMultipleItem">addMultipleItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.ShoppingCartTest" class="method navigator-link" hash-for-method="addSameItem">addSameItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.LoginSecTest" class="method navigator-link" hash-for-method="editName">editName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.GuestAccountTest" class="method navigator-link" hash-for-method="guestSearchAndBuy">guestSearchAndBuy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SearchTest" class="method navigator-link" hash-for-method="navigationToNextPage">navigationToNextPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SearchTest" class="method navigator-link" hash-for-method="numberOfProductsPerPage">numberOfProductsPerPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.ShoppingCartTest" class="method navigator-link" hash-for-method="quantityDecrease">quantityDecrease</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.ShoppingCartTest" class="method navigator-link" hash-for-method="quantityIncrease">quantityIncrease</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.ShoppingCartTest" class="method navigator-link" hash-for-method="quantityRemove">quantityRemove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.ShoppingCartTest" class="method navigator-link" hash-for-method="quantityRemoveAll">quantityRemoveAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SigninTest" class="method navigator-link" hash-for-method="signinValidEmailPassword">signinValidEmailPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="verifyAddAddressTitle">verifyAddAddressTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="verifyCountryValue">verifyCountryValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SearchTest" class="method navigator-link" hash-for-method="verifyProductImage">verifyProductImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SearchTest" class="method navigator-link" hash-for-method="verifyProductName">verifyProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SearchTest" class="method navigator-link" hash-for-method="verifyProductPageTitle">verifyProductPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SearchTest" class="method navigator-link" hash-for-method="verifyProductPrice">verifyProductPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SearchTest" class="method navigator-link" hash-for-method="verifyProductRating">verifyProductRating</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.YourAddressTest" class="method navigator-link" hash-for-method="verifyYourAddressTitle">verifyYourAddressTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SigninTest" class="method navigator-link" hash-for-method="youraccount">youraccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="testLayer.SigninTest" class="method navigator-link" hash-for-method="yourorders">yourorders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Amazon -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Amazon" class="panel Amazon">
+          <div class="suite-Amazon-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testLayer.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortingLowToHigh">
+                  </a> <!-- sortingLowToHigh -->
+                  <span class="method-name">sortingLowToHigh</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testLayer.SearchTest.sortingLowToHigh(SearchTest.java:117)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-failed -->
+          <div class="suite-Amazon-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testLayer.YourAddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInvalidAddress(Alex, 111.0, 3 west fort, milton, Ontario, L6B 5N4, n, )">
+                  </a> <!-- addInvalidAddress(Alex, 111.0, 3 west fort, milton, Ontario, L6B 5N4, n, ) -->
+                  <span class="method-name">addInvalidAddress</span>
+                  <span class="parameters">(Alex,111.0,3 west fort,milton,Ontario,L6B 5N4,n,)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testLayer.YourAddressTest.addInvalidAddress(YourAddressTest.java:127)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, 4503L, n, )">
+                  </a> <!-- addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, 4503L, n, ) -->
+                  <span class="method-name">addInvalidAddress</span>
+                  <span class="parameters">(Alex,1.23456789E9,3 west fort,milton,Ontario,4503L,n,)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testLayer.YourAddressTest.addInvalidAddress(YourAddressTest.java:127)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-failed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testLayer.LoginSecTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editName">
+                  </a> <!-- editName -->
+                  <span class="method-name">editName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testLayer.YourAddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAddress(Tom, 9.87654321E9, 2 new street, hamilton, Ontario, L6B 1N3, y, 123.0)">
+                  </a> <!-- addAddress(Tom, 9.87654321E9, 2 new street, hamilton, Ontario, L6B 1N3, y, 123.0) -->
+                  <span class="method-name">addAddress</span>
+                  <span class="parameters">(Tom,9.87654321E9,2 new street,hamilton,Ontario,L6B 1N3,y,123.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, y, 111.0)">
+                  </a> <!-- addAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, y, 111.0) -->
+                  <span class="method-name">addAddress</span>
+                  <span class="parameters">(Alex,1.23456789E9,3 west fort,milton,Ontario,L6B 5N4,y,111.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInvalidAddress(Alex, 1.23456789E9, 3 west fort, , Ontario, L6B 5N4, n, 111.0)">
+                  </a> <!-- addInvalidAddress(Alex, 1.23456789E9, 3 west fort, , Ontario, L6B 5N4, n, 111.0) -->
+                  <span class="method-name">addInvalidAddress</span>
+                  <span class="parameters">(Alex,1.23456789E9,3 west fort,,Ontario,L6B 5N4,n,111.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInvalidAddress(Tom, 9.87654321E9, , hamilton, Ontario, L6B 1N3, n, 123.0)">
+                  </a> <!-- addInvalidAddress(Tom, 9.87654321E9, , hamilton, Ontario, L6B 1N3, n, 123.0) -->
+                  <span class="method-name">addInvalidAddress</span>
+                  <span class="parameters">(Tom,9.87654321E9,,hamilton,Ontario,L6B 1N3,n,123.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, , n, )">
+                  </a> <!-- addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, , n, ) -->
+                  <span class="method-name">addInvalidAddress</span>
+                  <span class="parameters">(Alex,1.23456789E9,3 west fort,milton,Ontario,,n,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInvalidAddress(Alex, , 3 west fort, milton, Ontario, L6B 5N4, n, )">
+                  </a> <!-- addInvalidAddress(Alex, , 3 west fort, milton, Ontario, L6B 5N4, n, ) -->
+                  <span class="method-name">addInvalidAddress</span>
+                  <span class="parameters">(Alex,,3 west fort,milton,Ontario,L6B 5N4,n,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInvalidAddress(, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, n, )">
+                  </a> <!-- addInvalidAddress(, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, n, ) -->
+                  <span class="method-name">addInvalidAddress</span>
+                  <span class="parameters">(,1.23456789E9,3 west fort,milton,Ontario,L6B 5N4,n,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddAddressTitle">
+                  </a> <!-- verifyAddAddressTitle -->
+                  <span class="method-name">verifyAddAddressTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCountryValue">
+                  </a> <!-- verifyCountryValue -->
+                  <span class="method-name">verifyCountryValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyYourAddressTitle">
+                  </a> <!-- verifyYourAddressTitle -->
+                  <span class="method-name">verifyYourAddressTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testLayer.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationToNextPage">
+                  </a> <!-- navigationToNextPage -->
+                  <span class="method-name">navigationToNextPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfProductsPerPage">
+                  </a> <!-- numberOfProductsPerPage -->
+                  <span class="method-name">numberOfProductsPerPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductImage">
+                  </a> <!-- verifyProductImage -->
+                  <span class="method-name">verifyProductImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductName">
+                  </a> <!-- verifyProductName -->
+                  <span class="method-name">verifyProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPageTitle">
+                  </a> <!-- verifyProductPageTitle -->
+                  <span class="method-name">verifyProductPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPrice">
+                  </a> <!-- verifyProductPrice -->
+                  <span class="method-name">verifyProductPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductRating">
+                  </a> <!-- verifyProductRating -->
+                  <span class="method-name">verifyProductRating</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testLayer.GuestAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="guestSearchAndBuy">
+                  </a> <!-- guestSearchAndBuy -->
+                  <span class="method-name">guestSearchAndBuy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testLayer.ShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemVerify">
+                  </a> <!-- addItemVerify -->
+                  <span class="method-name">addItemVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMultipleItem">
+                  </a> <!-- addMultipleItem -->
+                  <span class="method-name">addMultipleItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSameItem">
+                  </a> <!-- addSameItem -->
+                  <span class="method-name">addSameItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityDecrease">
+                  </a> <!-- quantityDecrease -->
+                  <span class="method-name">quantityDecrease</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityIncrease">
+                  </a> <!-- quantityIncrease -->
+                  <span class="method-name">quantityIncrease</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityRemove">
+                  </a> <!-- quantityRemove -->
+                  <span class="method-name">quantityRemove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityRemoveAll">
+                  </a> <!-- quantityRemoveAll -->
+                  <span class="method-name">quantityRemoveAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testLayer.SigninTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signinValidEmailPassword">
+                  </a> <!-- signinValidEmailPassword -->
+                  <span class="method-name">signinValidEmailPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="youraccount">
+                  </a> <!-- youraccount -->
+                  <span class="method-name">youraccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="yourorders">
+                  </a> <!-- yourorders -->
+                  <span class="method-name">yourorders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+        </div> <!-- panel Amazon -->
+        <div panel-name="test-xml-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shahz\eclipse-workspace\Amazon\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Amazon&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNg&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testLayer.GuestAccountTest&quot;/&gt;
+      &lt;class name=&quot;testLayer.SigninTest&quot;/&gt;
+      &lt;class name=&quot;testLayer.YourAddressTest&quot;/&gt;
+      &lt;class name=&quot;testLayer.LoginSecTest&quot;/&gt;
+      &lt;class name=&quot;testLayer.ShoppingCartTest&quot;/&gt;
+      &lt;class name=&quot;testLayer.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNg --&gt;
+&lt;/suite&gt; &lt;!-- Amazon --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Amazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestNg (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Amazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Amazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Amazon');
+function tableData_Amazon() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addItemVerify')
+data.setCell(0, 2, 'testLayer.ShoppingCartTest')
+data.setCell(0, 3, 23762);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addMultipleItem')
+data.setCell(1, 2, 'testLayer.ShoppingCartTest')
+data.setCell(1, 3, 20566);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addSameItem')
+data.setCell(2, 2, 'testLayer.ShoppingCartTest')
+data.setCell(2, 3, 19997);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductPageTitle')
+data.setCell(3, 2, 'testLayer.SearchTest')
+data.setCell(3, 3, 13239);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addAddress')
+data.setCell(4, 2, 'testLayer.YourAddressTest')
+data.setCell(4, 3, 11722);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'guestSearchAndBuy')
+data.setCell(5, 2, 'testLayer.GuestAccountTest')
+data.setCell(5, 3, 11432);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addAddress')
+data.setCell(6, 2, 'testLayer.YourAddressTest')
+data.setCell(6, 3, 11137);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addInvalidAddress')
+data.setCell(7, 2, 'testLayer.YourAddressTest')
+data.setCell(7, 3, 8007);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addInvalidAddress')
+data.setCell(8, 2, 'testLayer.YourAddressTest')
+data.setCell(8, 3, 7187);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'quantityIncrease')
+data.setCell(9, 2, 'testLayer.ShoppingCartTest')
+data.setCell(9, 3, 7171);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signinValidEmailPassword')
+data.setCell(10, 2, 'testLayer.SigninTest')
+data.setCell(10, 3, 6991);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'quantityDecrease')
+data.setCell(11, 2, 'testLayer.ShoppingCartTest')
+data.setCell(11, 3, 6982);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addInvalidAddress')
+data.setCell(12, 2, 'testLayer.YourAddressTest')
+data.setCell(12, 3, 6548);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'editName')
+data.setCell(13, 2, 'testLayer.LoginSecTest')
+data.setCell(13, 3, 6300);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addInvalidAddress')
+data.setCell(14, 2, 'testLayer.YourAddressTest')
+data.setCell(14, 3, 6283);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addInvalidAddress')
+data.setCell(15, 2, 'testLayer.YourAddressTest')
+data.setCell(15, 3, 5944);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'navigationToNextPage')
+data.setCell(16, 2, 'testLayer.SearchTest')
+data.setCell(16, 3, 4580);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addInvalidAddress')
+data.setCell(17, 2, 'testLayer.YourAddressTest')
+data.setCell(17, 3, 4337);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'addInvalidAddress')
+data.setCell(18, 2, 'testLayer.YourAddressTest')
+data.setCell(18, 3, 4119);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'sortingLowToHigh')
+data.setCell(19, 2, 'testLayer.SearchTest')
+data.setCell(19, 3, 3467);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyProductPrice')
+data.setCell(20, 2, 'testLayer.SearchTest')
+data.setCell(20, 3, 2060);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'quantityRemoveAll')
+data.setCell(21, 2, 'testLayer.ShoppingCartTest')
+data.setCell(21, 3, 2022);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'quantityRemove')
+data.setCell(22, 2, 'testLayer.ShoppingCartTest')
+data.setCell(22, 3, 1957);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'yourorders')
+data.setCell(23, 2, 'testLayer.SigninTest')
+data.setCell(23, 3, 1383);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'youraccount')
+data.setCell(24, 2, 'testLayer.SigninTest')
+data.setCell(24, 3, 1223);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyAddAddressTitle')
+data.setCell(25, 2, 'testLayer.YourAddressTest')
+data.setCell(25, 3, 1162);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyCountryValue')
+data.setCell(26, 2, 'testLayer.YourAddressTest')
+data.setCell(26, 3, 93);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyProductRating')
+data.setCell(27, 2, 'testLayer.SearchTest')
+data.setCell(27, 3, 57);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyProductImage')
+data.setCell(28, 2, 'testLayer.SearchTest')
+data.setCell(28, 3, 56);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyProductName')
+data.setCell(29, 2, 'testLayer.SearchTest')
+data.setCell(29, 3, 49);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'numberOfProductsPerPage')
+data.setCell(30, 2, 'testLayer.SearchTest')
+data.setCell(30, 3, 40);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyYourAddressTitle')
+data.setCell(31, 2, 'testLayer.YourAddressTest')
+data.setCell(31, 3, 29);
+window.suiteTableData['Amazon']= { tableData: data, tableDiv: 'times-div-Amazon'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Amazon">
+              </div> <!-- times-div-Amazon -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Amazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testLayer.GuestAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">guestSearchAndBuy</span>
+                <span class="method-start">6066 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testLayer.SigninTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">17508 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">signinValidEmailPassword</span>
+                <span class="method-start">17851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">youraccount</span>
+                <span class="method-start">24850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">yourorders</span>
+                <span class="method-start">26077 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testLayer.YourAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">27462 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyYourAddressTitle</span>
+                <span class="method-start">33106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddAddressTitle</span>
+                <span class="method-start">33139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCountryValue</span>
+                <span class="method-start">34309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addAddress(Tom, 9.87654321E9, 2 new street, hamilton, Ontario, L6B 1N3, y, 123.0)</span>
+                <span class="method-start">39276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, y, 111.0)</span>
+                <span class="method-start">50417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addInvalidAddress(Tom, 9.87654321E9, , hamilton, Ontario, L6B 1N3, n, 123.0)</span>
+                <span class="method-start">62323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addInvalidAddress(Alex, 1.23456789E9, 3 west fort, , Ontario, L6B 5N4, n, 111.0)</span>
+                <span class="method-start">70334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addInvalidAddress(Alex, , 3 west fort, milton, Ontario, L6B 5N4, n, )</span>
+                <span class="method-start">76282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addInvalidAddress(Alex, 111.0, 3 west fort, milton, Ontario, L6B 5N4, n, )</span>
+                <span class="method-start">82834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, , n, )</span>
+                <span class="method-start">86969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addInvalidAddress(Alex, 1.23456789E9, 3 west fort, milton, Ontario, 4503L, n, )</span>
+                <span class="method-start">94160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addInvalidAddress(, 1.23456789E9, 3 west fort, milton, Ontario, L6B 5N4, n, )</span>
+                <span class="method-start">98501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testLayer.LoginSecTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">104786 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">editName</span>
+                <span class="method-start">105532 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testLayer.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">111836 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addItemVerify</span>
+                <span class="method-start">111851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityIncrease</span>
+                <span class="method-start">135623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addSameItem</span>
+                <span class="method-start">142796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addMultipleItem</span>
+                <span class="method-start">162795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityDecrease</span>
+                <span class="method-start">183363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityRemove</span>
+                <span class="method-start">190350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityRemoveAll</span>
+                <span class="method-start">192309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">194332 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testLayer.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">194336 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPageTitle</span>
+                <span class="method-start">194343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductImage</span>
+                <span class="method-start">207584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductName</span>
+                <span class="method-start">207642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPrice</span>
+                <span class="method-start">207693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductRating</span>
+                <span class="method-start">209754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfProductsPerPage</span>
+                <span class="method-start">209812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigationToNextPage</span>
+                <span class="method-start">209855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sortingLowToHigh</span>
+                <span class="method-start">214437 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testLayer.GuestAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">218029 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testLayer.SigninTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">218030 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testLayer.YourAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">218031 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="29" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-22T00:04:04 EDT" name="Amazon" finished-at="2024-03-22T00:07:36 EDT" duration-ms="212063">
+    <groups>
+    </groups>
+    <test started-at="2024-03-22T00:04:04 EDT" name="TestNg" finished-at="2024-03-22T00:07:36 EDT" duration-ms="212063">
+      <class name="testLayer.GuestAccountTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.GuestAccountTest@691939c9]" started-at="2024-03-22T00:03:58 EDT" name="initsetup" finished-at="2024-03-22T00:04:04 EDT" duration-ms="5844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="guestSearchAndBuy()[pri:0, instance:testLayer.GuestAccountTest@691939c9]" started-at="2024-03-22T00:04:04 EDT" name="guestSearchAndBuy" finished-at="2024-03-22T00:04:15 EDT" duration-ms="11432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestSearchAndBuy -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testLayer.GuestAccountTest@691939c9]" started-at="2024-03-22T00:07:36 EDT" name="closeBrowser" finished-at="2024-03-22T00:07:36 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testLayer.GuestAccountTest -->
+      <class name="testLayer.SigninTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.SigninTest@70f59913]" started-at="2024-03-22T00:04:15 EDT" name="initsetup" finished-at="2024-03-22T00:04:16 EDT" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="signinValidEmailPassword()[pri:4, instance:testLayer.SigninTest@70f59913]" started-at="2024-03-22T00:04:16 EDT" name="signinValidEmailPassword" finished-at="2024-03-22T00:04:23 EDT" duration-ms="6991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinValidEmailPassword -->
+        <test-method signature="youraccount()[pri:5, instance:testLayer.SigninTest@70f59913]" started-at="2024-03-22T00:04:23 EDT" name="youraccount" finished-at="2024-03-22T00:04:24 EDT" depends-on-methods="testLayer.SigninTest.signinValidEmailPassword" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youraccount -->
+        <test-method signature="yourorders()[pri:6, instance:testLayer.SigninTest@70f59913]" started-at="2024-03-22T00:04:24 EDT" name="yourorders" finished-at="2024-03-22T00:04:25 EDT" depends-on-methods="testLayer.SigninTest.signinValidEmailPassword" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourorders -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testLayer.SigninTest@70f59913]" started-at="2024-03-22T00:07:36 EDT" name="closebrowser" finished-at="2024-03-22T00:07:36 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testLayer.SigninTest -->
+      <class name="testLayer.YourAddressTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:04:25 EDT" name="initsetup" finished-at="2024-03-22T00:04:31 EDT" duration-ms="5641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="verifyYourAddressTitle()[pri:1, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:04:31 EDT" name="verifyYourAddressTitle" finished-at="2024-03-22T00:04:31 EDT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourAddressTitle -->
+        <test-method signature="verifyAddAddressTitle()[pri:2, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:04:31 EDT" name="verifyAddAddressTitle" finished-at="2024-03-22T00:04:32 EDT" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddAddressTitle -->
+        <test-method signature="verifyCountryValue()[pri:3, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:04:32 EDT" name="verifyCountryValue" finished-at="2024-03-22T00:04:32 EDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryValue -->
+        <test-method signature="addAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:04:37 EDT" name="addAddress" data-provider="validAddressDetails" finished-at="2024-03-22T00:04:48 EDT" duration-ms="11137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.87654321E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hamilton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[L6B 1N3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method signature="addAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:04:48 EDT" name="addAddress" data-provider="validAddressDetails" finished-at="2024-03-22T00:05:00 EDT" duration-ms="11722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 west fort]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[milton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[L6B 5N4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[111.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method signature="addInvalidAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:05:00 EDT" name="addInvalidAddress" data-provider="InvalidvalidAddressDetails" finished-at="2024-03-22T00:05:08 EDT" duration-ms="8007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.87654321E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hamilton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[L6B 1N3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInvalidAddress -->
+        <test-method signature="addInvalidAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:05:08 EDT" name="addInvalidAddress" data-provider="InvalidvalidAddressDetails" finished-at="2024-03-22T00:05:14 EDT" duration-ms="5944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 west fort]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[L6B 5N4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[111.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInvalidAddress -->
+        <test-method signature="addInvalidAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:05:14 EDT" name="addInvalidAddress" data-provider="InvalidvalidAddressDetails" finished-at="2024-03-22T00:05:21 EDT" duration-ms="6548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 west fort]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[milton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[L6B 5N4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInvalidAddress -->
+        <test-method signature="addInvalidAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:05:21 EDT" name="addInvalidAddress" data-provider="InvalidvalidAddressDetails" finished-at="2024-03-22T00:05:25 EDT" duration-ms="4119" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 west fort]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[milton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[L6B 5N4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1086)
+at testLayer.YourAddressTest.addInvalidAddress(YourAddressTest.java:127)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInvalidAddress -->
+        <test-method signature="addInvalidAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:05:25 EDT" name="addInvalidAddress" data-provider="InvalidvalidAddressDetails" finished-at="2024-03-22T00:05:32 EDT" duration-ms="7187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 west fort]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[milton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInvalidAddress -->
+        <test-method signature="addInvalidAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:05:32 EDT" name="addInvalidAddress" data-provider="InvalidvalidAddressDetails" finished-at="2024-03-22T00:05:36 EDT" duration-ms="4337" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 west fort]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[milton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4503L]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1086)
+at testLayer.YourAddressTest.addInvalidAddress(YourAddressTest.java:127)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInvalidAddress -->
+        <test-method signature="addInvalidAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:05:36 EDT" name="addInvalidAddress" data-provider="InvalidvalidAddressDetails" finished-at="2024-03-22T00:05:43 EDT" duration-ms="6283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 west fort]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[milton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[L6B 5N4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInvalidAddress -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testLayer.YourAddressTest@77258e59]" started-at="2024-03-22T00:07:36 EDT" name="closebrowser" finished-at="2024-03-22T00:07:36 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testLayer.YourAddressTest -->
+      <class name="testLayer.SearchTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.SearchTest@7e3181aa]" started-at="2024-03-22T00:07:12 EDT" name="initsetup" finished-at="2024-03-22T00:07:12 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="verifyProductPageTitle()[pri:0, instance:testLayer.SearchTest@7e3181aa]" started-at="2024-03-22T00:07:12 EDT" name="verifyProductPageTitle" finished-at="2024-03-22T00:07:25 EDT" duration-ms="13239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageTitle -->
+        <test-method signature="verifyProductImage()[pri:1, instance:testLayer.SearchTest@7e3181aa]" started-at="2024-03-22T00:07:25 EDT" name="verifyProductImage" finished-at="2024-03-22T00:07:25 EDT" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductImage -->
+        <test-method signature="verifyProductName()[pri:2, instance:testLayer.SearchTest@7e3181aa]" started-at="2024-03-22T00:07:25 EDT" name="verifyProductName" finished-at="2024-03-22T00:07:26 EDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductName -->
+        <test-method signature="verifyProductPrice()[pri:3, instance:testLayer.SearchTest@7e3181aa]" started-at="2024-03-22T00:07:26 EDT" name="verifyProductPrice" finished-at="2024-03-22T00:07:28 EDT" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPrice -->
+        <test-method signature="verifyProductRating()[pri:4, instance:testLayer.SearchTest@7e3181aa]" started-at="2024-03-22T00:07:28 EDT" name="verifyProductRating" finished-at="2024-03-22T00:07:28 EDT" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductRating -->
+        <test-method signature="numberOfProductsPerPage()[pri:5, instance:testLayer.SearchTest@7e3181aa]" started-at="2024-03-22T00:07:28 EDT" name="numberOfProductsPerPage" finished-at="2024-03-22T00:07:28 EDT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfProductsPerPage -->
+        <test-method signature="navigationToNextPage()[pri:6, instance:testLayer.SearchTest@7e3181aa]" started-at="2024-03-22T00:07:28 EDT" name="navigationToNextPage" finished-at="2024-03-22T00:07:32 EDT" duration-ms="4580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationToNextPage -->
+        <test-method signature="sortingLowToHigh()[pri:7, instance:testLayer.SearchTest@7e3181aa]" started-at="2024-03-22T00:07:32 EDT" name="sortingLowToHigh" finished-at="2024-03-22T00:07:36 EDT" duration-ms="3467" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1030)
+at org.testng.Assert.assertEquals(Assert.java:1076)
+at testLayer.SearchTest.sortingLowToHigh(SearchTest.java:117)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingLowToHigh -->
+      </class> <!-- testLayer.SearchTest -->
+      <class name="testLayer.ShoppingCartTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.ShoppingCartTest@2250b9f2]" started-at="2024-03-22T00:05:50 EDT" name="initsetup" finished-at="2024-03-22T00:05:50 EDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="addItemVerify()[pri:1, instance:testLayer.ShoppingCartTest@2250b9f2]" started-at="2024-03-22T00:05:50 EDT" name="addItemVerify" finished-at="2024-03-22T00:06:13 EDT" duration-ms="23762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemVerify -->
+        <test-method signature="quantityIncrease()[pri:2, instance:testLayer.ShoppingCartTest@2250b9f2]" started-at="2024-03-22T00:06:13 EDT" name="quantityIncrease" finished-at="2024-03-22T00:06:21 EDT" duration-ms="7171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quantityIncrease -->
+        <test-method signature="addSameItem()[pri:3, instance:testLayer.ShoppingCartTest@2250b9f2]" started-at="2024-03-22T00:06:21 EDT" name="addSameItem" finished-at="2024-03-22T00:06:41 EDT" duration-ms="19997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSameItem -->
+        <test-method signature="addMultipleItem()[pri:4, instance:testLayer.ShoppingCartTest@2250b9f2]" started-at="2024-03-22T00:06:41 EDT" name="addMultipleItem" finished-at="2024-03-22T00:07:01 EDT" duration-ms="20566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleItem -->
+        <test-method signature="quantityDecrease()[pri:5, instance:testLayer.ShoppingCartTest@2250b9f2]" started-at="2024-03-22T00:07:01 EDT" name="quantityDecrease" finished-at="2024-03-22T00:07:08 EDT" duration-ms="6982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quantityDecrease -->
+        <test-method signature="quantityRemove()[pri:6, instance:testLayer.ShoppingCartTest@2250b9f2]" started-at="2024-03-22T00:07:08 EDT" name="quantityRemove" finished-at="2024-03-22T00:07:10 EDT" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quantityRemove -->
+        <test-method signature="quantityRemoveAll()[pri:7, instance:testLayer.ShoppingCartTest@2250b9f2]" started-at="2024-03-22T00:07:10 EDT" name="quantityRemoveAll" finished-at="2024-03-22T00:07:12 EDT" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quantityRemoveAll -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testLayer.ShoppingCartTest@2250b9f2]" started-at="2024-03-22T00:07:12 EDT" name="closeBrowser" finished-at="2024-03-22T00:07:12 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testLayer.ShoppingCartTest -->
+      <class name="testLayer.LoginSecTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.LoginSecTest@5dcd8c7a]" started-at="2024-03-22T00:05:43 EDT" name="initsetup" finished-at="2024-03-22T00:05:43 EDT" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="editName()[pri:0, instance:testLayer.LoginSecTest@5dcd8c7a]" started-at="2024-03-22T00:05:43 EDT" name="editName" finished-at="2024-03-22T00:05:50 EDT" duration-ms="6300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editName -->
+      </class> <!-- testLayer.LoginSecTest -->
+    </test> <!-- TestNg -->
+  </suite> <!-- Amazon -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon]">
+  <test thread-count="5" name="TestNg(failed)">
+    <classes>
+      <class name="testLayer.SearchTest">
+        <methods>
+          <include name="initsetup"/>
+          <include name="sortingLowToHigh"/>
+        </methods>
+      </class> <!-- testLayer.SearchTest -->
+      <class name="testLayer.YourAddressTest">
+        <methods>
+          <include name="initsetup"/>
+          <include name="addInvalidAddress" invocation-numbers="3 5"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- testLayer.YourAddressTest -->
+    </classes>
+  </test> <!-- TestNg(failed) -->
+</suite> <!-- Failed suite [Amazon] -->
