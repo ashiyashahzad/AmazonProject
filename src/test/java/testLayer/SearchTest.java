@@ -8,6 +8,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -140,5 +141,9 @@ public class SearchTest extends BaseAmazonClass {
 //		}
 
 
+	@AfterSuite
+	public void closebrowser() {
+		driver.close();
+	}
 }
 
